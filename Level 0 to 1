@@ -1,0 +1,22 @@
+Level 0:
+$ ssh bandit0@bandit.labs.overthewire.org -p 2220
+Enter password: bandit0
+
+Level 0 to Level 1:
+
+bandit0@bandit:~$ ls -al
+total 24
+drwxr-xr-x  2 root    root    4096 May  7  2020 .
+drwxr-xr-x 41 root    root    4096 May  7  2020 ..
+-rw-r--r--  1 root    root     220 May 15  2017 .bash_logout
+-rw-r--r--  1 root    root    3526 May 15  2017 .bashrc
+-rw-r--r--  1 root    root     675 May 15  2017 .profile
+-rw-r-----  1 bandit1 bandit0   33 May  7  2020 readme
+bandit0@bandit:~$ cat readme
+boJ9jbbUNNfktd78OOpsqOltutMc3MY1
+bandit0@bandit:~$ exit
+logout
+Connection to bandit.labs.overthewire.org closed.
+
+
+Password for level 1: boJ9jbbUNNfktd78OOpsqOltutMc3MY1
